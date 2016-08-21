@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.weibo.toil.ui.view.LrcView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lrc"
+        android:layout_gravity="center"
+        android:background="@android:color/black"
+        app:animationDuration="1000"
+        app:currentTextColor="?attr/colorAccent"
+        app:dividerHeight="24dp"
+        app:normalTextColor="@android:color/white"
+        app:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="?attr/colorAccent"
+        android:text="找不到歌词"
+        android:gravity="center"
+        android:id="@+id/lrc_is"
+        />
+
+</FrameLayout>
